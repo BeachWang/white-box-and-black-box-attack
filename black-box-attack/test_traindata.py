@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 24 18:47:41 2019
-
-@author: zhanghuangzhao
-"""
 
 import tensorflow as tf
 import numpy
