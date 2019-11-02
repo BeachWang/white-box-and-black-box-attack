@@ -26,6 +26,7 @@
     <p><img src="https://img-blog.csdnimg.cn/2019110214380492.png"></p>
   </li>
 </ul>
+
 ## 黑盒攻击
 <ul>
   <li> 采用迁移攻击方法：模拟待攻击模型得到一个傀儡模型，对傀儡模型进行白盒攻击，用改动后的数据对待攻击模型进行黑盒攻击。具体来说，我先运行test_traindata.py获得待攻击模型在训练集上的预测值，然后将预测值作为ground true在train_dummy.py里利用第一步白盒攻击的模型训练出一个傀儡模型。然后用dummy_attack.py对傀儡模型进行白盒攻击，存储改变后的图像，用b_attack.py对待攻击模型进行黑盒攻击。</li>
