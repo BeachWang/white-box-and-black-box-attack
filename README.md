@@ -25,7 +25,7 @@
   <li>
   '''
   成功攻击样例展示，第一行为原图，第二行为攻击之后的图像。  
-    ![cmd-markdown-logo](https://img-blog.csdnimg.cn/20191102143738960.png)  
+    <p><img src="https://img-blog.csdnimg.cn/20191102143738960.png"></p>  
     ![cmd-markdown-logo](https://img-blog.csdnimg.cn/2019110214380492.png)
   '''
   </li>
